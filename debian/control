@@ -1,0 +1,12 @@
+Source: ros-foxy-clpe-ros-msgs
+Section: misc
+Priority: optional
+Maintainer: Dongwoo Sun <dwsun@can-lab.co.kr>
+Build-Depends: debhelper (>= 9.0.0), python3-colcon-common-extensions, ros-foxy-ament-cmake, ros-foxy-ament-lint-common <!nocheck>, ros-foxy-rosidl-default-generators, ros-foxy-ros-workspace, ros-foxy-rosidl-typesupport-fastrtps-c, ros-foxy-rosidl-typesupport-fastrtps-cpp, ros-foxy-rosidl-typesupport-connext-c, ros-foxy-rosidl-typesupport-connext-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-clpe-ros-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-ros-workspace
+Description: Messages used by clpe_ros
